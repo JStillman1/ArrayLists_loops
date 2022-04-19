@@ -27,12 +27,15 @@ public class Runner {
         System.out.println(scottishIslands.indexOf("Skye"));
 
 //        5. Remove "Tresco" from the list by name
-        
+
         //  Test to see if it is correctly removed
 //        System.out.println(scottishIslands);
         scottishIslands.remove("Tresco");
 
 //        6. Remove "Arran" from the list by index
+        scottishIslands.remove(scottishIslands.indexOf("Arran"));
+
+
 //        7. Print the number of islands in your arraylist
 //        8. Sort the list alphabetically
 //        9. Print out all the islands using a for loop
