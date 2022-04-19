@@ -39,6 +39,7 @@ public class Runner {
         System.out.println(scottishIslands.size());
 
 //        8. Sort the list alphabetically
+        java.util.Collections.sort(scottishIslands);
 //        9. Print out all the islands using a for loop
 
         System.out.println(scottishIslands);
