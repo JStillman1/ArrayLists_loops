@@ -88,7 +88,7 @@ public class Runner {
         for(int num : numbers){
             sum += num;
         }
-        sout
+        System.out.println(sum);
 //        5. Print the sum of the numbers...
 //           ...except the number 13 is unlucky, so it does not count...
 //           ...and numbers that come immediately after a 13 also do not count
