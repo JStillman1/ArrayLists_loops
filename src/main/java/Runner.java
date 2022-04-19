@@ -28,6 +28,10 @@ public class Runner {
 
 //        5. Remove "Tresco" from the list by name
         
+        //  Test to see if it is correctly removed
+//        System.out.println(scottishIslands);
+        scottishIslands.remove("Tresco");
+
 //        6. Remove "Arran" from the list by index
 //        7. Print the number of islands in your arraylist
 //        8. Sort the list alphabetically
