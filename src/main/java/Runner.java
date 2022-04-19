@@ -44,7 +44,6 @@ public class Runner {
         for(String island : scottishIslands){
             System.out.println(island);
         }
-        
 
         System.out.println(scottishIslands);
 
@@ -55,6 +54,15 @@ public class Runner {
         System.out.println("numbers: " + numbers);
 
 //        1. Print out a list of the even integers
+        List<Integer> evens = new ArrayList<>();
+
+        for(int num : numbers){
+            if(num % 2 == 0) {
+                evens.add(num);
+            }
+        }
+        System.out.println(evens);
+        
 //        2. Print the difference between the largest and smallest value
 //        3. Print true if the list contains a 1 next to a 1 somewhere
 //        4. Print the sum of the numbers
