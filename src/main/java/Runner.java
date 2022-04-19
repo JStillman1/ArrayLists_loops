@@ -62,8 +62,19 @@ public class Runner {
             }
         }
         System.out.println(evens);
-        
+
 //        2. Print the difference between the largest and smallest value
+        int min = numbers.get(0);
+        int max = numbers.get(numbers.size() - 1);
+        for(int num : numbers){
+            if(num < min){
+                min = num;
+            }
+            else if (num > max){
+                max = num;
+            }
+        }
+        System.out.println(max - min);
 //        3. Print true if the list contains a 1 next to a 1 somewhere
 //        4. Print the sum of the numbers
 //        5. Print the sum of the numbers...
