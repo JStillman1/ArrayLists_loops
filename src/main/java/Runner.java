@@ -89,12 +89,25 @@ public class Runner {
             sum += num;
         }
         System.out.println(sum);
+
 //        5. Print the sum of the numbers...
 //           ...except the number 13 is unlucky, so it does not count...
 //           ...and numbers that come immediately after a 13 also do not count
 //          HINT - You will need to track the index throughout the loop
 //
 //          So [7, 13, 2] would have sum of 9.
+
+        int specialSum = 0;
+        if(numbers.get(0) != 13){
+            specialSum += numbers.get(0);
+        }
+        for (int i = 1; i < numbers.size(); i++){
+            if(numbers.get(i) == 13 || numbers.get(i - 1) == 13){
+                continue;
+            }
+            specialSum += numbers.get(i);
+        }
+        System.out.println(specialSum);
 
     }
 
