@@ -19,7 +19,10 @@ public class Runner {
 
 //        2. Add "Tiree" to the start of the list
         scottishIslands.add(0, "Tiree");
+
 //        3. Add "Islay" after "Jura" and before "Mull"
+        scottishIslands.add(scottishIslands.indexOf("Jura") + 1, "Islay");
+
 //        4. Print out the index position of "Skye"
 //        5. Remove "Tresco" from the list by name
 //        6. Remove "Arran" from the list by index
