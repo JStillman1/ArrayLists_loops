@@ -102,6 +102,7 @@ public class Runner {
             if(numbers.get(i) == 1 && numbers.get(i - 1) == 1){
                 //Then print true
                 System.out.println("true");
+                break;
             }
             //Otherwise, skip to the next number
         }
